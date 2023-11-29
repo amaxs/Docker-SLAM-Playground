@@ -14,11 +14,11 @@ git am simu_update.patch
 
 # List of updates
 
-Defined in the simu_update.patch
-(TODO)
+Please read the [last changelog](./CHANGELOG.md#Changelog)
 
+# How to generate the patch
 
-generated from the command
+Do your update on your branch, commit the update , and geenrate the patch diff from the command:
 
 ```
 git format-patch origin/main --stdout > simu_update.patch
